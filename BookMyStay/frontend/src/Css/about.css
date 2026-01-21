@@ -1,0 +1,37 @@
+.about-hero {
+  background: url("../src/assets/photo.jfif") center/cover no-repeat;
+  height: 60vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-hero .overlay {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.developers {
+  background: linear-gradient(135deg, #007bff, #00a8ff);
+}
+
+.dev-card {
+  background: #fff;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.dev-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+}
+
+.dev-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: auto;
+}

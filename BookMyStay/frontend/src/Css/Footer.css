@@ -1,0 +1,37 @@
+.footer-modern {
+  /* background: linear-gradient(135deg, #007bff, #00a8ff); */
+  background: linear-gradient(135deg, #0b1722, #00a8ff);
+  padding: 50px 0 30px;
+  color: white;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+}
+
+.footer-logo {
+  width: 80px;
+  height: auto;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #dff3ff;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 12px;
+  font-size: 1.5rem;
+  transition: transform 0.3s ease, color 0.3s;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px);
+  color: #f0f8ff;
+}

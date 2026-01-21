@@ -1,0 +1,106 @@
+/* --- Hero Section --- */
+/* .hero-section {
+  position: relative;
+  background-image: url("../src/assets/m.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  text-align: left;
+} */
+.hero-img {
+  height: 90vh;
+  object-fit: cover;
+}
+
+.hero-caption {
+  background: rgba(0, 0, 0, 0.45);
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin-left: 40px;
+  bottom: 100px;
+}
+
+.customer-section {
+  background-color: #f8f9fa;
+}
+
+.review-card {
+  background: #fff;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.review-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 3px solid #007bff;
+}
+
+.review-text {
+  font-style: italic;
+  color: #555;
+}
+
+/* Why Choose Section */
+.why-section {
+  background: linear-gradient(135deg, #007bff, #00a8ff);
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  color: white;
+  padding: 60px 20px;
+}
+
+.why-section h2 {
+  font-size: 2rem;
+}
+
+.why-section p {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* New Why Choose Section */
+.why-section {
+  background: #f9fbff;
+  border-top: 4px solid #007bff;
+}
+
+.why-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.why-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 18px rgba(0, 123, 255, 0.2);
+}
+
+.why-icon {
+  width: 170px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.why-card h5 {
+  color: #007bff;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.colorfor{
+  color: #007bff;
+}

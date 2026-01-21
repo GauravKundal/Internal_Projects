@@ -1,0 +1,33 @@
+.contact-hero {
+  background: url("../src/assets/contact.jpg") center/cover no-repeat;
+  height: 55vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .overlay{
+  background-image: "../src/assets/contact.jpg";
+} */
+
+.contact-hero .overlay {
+  background: rgba(0, 0, 0, 0.55);
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.contact-card {
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 123, 255, 0.25);
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: #007bff;
+}

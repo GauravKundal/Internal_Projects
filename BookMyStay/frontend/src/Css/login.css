@@ -1,0 +1,21 @@
+body {
+  background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+button.btn-primary {
+  background: linear-gradient(90deg, #007bff, #00b4d8);
+  border: none;
+}
+
+button.btn-primary:hover {
+  background: linear-gradient(90deg, #0056b3, #0096c7);
+}

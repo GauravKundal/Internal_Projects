@@ -1,0 +1,12 @@
+.booking-card {
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+.booking-card h3 {
+  font-weight: 700;
+}
+
+.text-primary {
+  color: #007bff !important;
+}
